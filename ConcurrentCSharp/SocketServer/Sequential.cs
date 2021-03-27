@@ -1,4 +1,11 @@
-﻿// communication protocol:
+﻿/*  
+    This assignment is created by :
+    Kimberly Salemink   0995873    
+    Regiena Zimmerman   0979691
+    INF2A 
+*/
+
+// communication protocol:
 // client -- connect --->              server
 // client <-- ready -----              server
 // client -- command / terminate -->   server

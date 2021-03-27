@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*  
+    This assignment is created by :
+    Kimberly Salemink   0995873    
+    Regiena Zimmerman   0979691
+    INF2A 
+*/
+
+using System;
 using System.IO;
 using System.Text;
 using System.Text.Json;
@@ -6,14 +13,14 @@ using Sequential;
 using Concurrent;
 //using Solution;
 
-
 namespace Program
 {
     // todo 2: analyse the flow of simulator.
     public class ServerSimulator
     {
         public Setting settings;
-        public string configFile = "../ClientServerConfig.json";
+        //public string configFile = "../ClientServerConfig.json";
+        public string configFile = "../../../../ClientServerConfig.json"; // for debugging
 
         public ServerSimulator()
         {
